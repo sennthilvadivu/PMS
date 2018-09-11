@@ -1,0 +1,9 @@
+D:\senthil\PMS\PMS\bin\Debug\PMS.dll
+D:\senthil\PMS\PMS\bin\Debug\PMS.pdb
+D:\senthil\PMS\PMS\obj\Debug\PMS.dll
+D:\senthil\PMS\PMS\obj\Debug\PMS.pdb
+D:\senthil\PMS\PMS\bin\Debug\PMS.dll.config
+D:\senthil\PMS\PMS\bin\Debug\EntityFramework.dll
+D:\senthil\PMS\PMS\bin\Debug\EntityFramework.SqlServer.dll
+D:\senthil\PMS\PMS\bin\Debug\EntityFramework.xml
+D:\senthil\PMS\PMS\bin\Debug\EntityFramework.SqlServer.xml

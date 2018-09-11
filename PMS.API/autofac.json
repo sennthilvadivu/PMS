@@ -1,0 +1,22 @@
+﻿{
+  "defaultAssembly": "PMS.Core.Application", //"DH.Simplify.Core.Application",
+  "components": [
+    {
+      "type": "PMS.Core.Application.VentureApplication,PMS.Core.Application", //"DH.Simplify.Core.Application.Newsfeed.NewsfeedApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "PMS.Core.Application.IVentureApplication" //"DH.Simplify.Core.Application.Newsfeed.INewsfeedApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "PMS.Persistence.Repositories.VentureRepository,PMS.Persistence", //"DH.Simplify.Infrastructure.Persistence.Repositories.GroupRepository, DH.Simplify.Infrastructure.Persistence",
+      "services": [
+        {
+          "type": "PMS.Core.Repositories.IVentureRepository,PMS.Core.Repositories"// "DH.Simplify.Core.Persistence.RepositoryInterfaces.IGroupRepository, DH.Simplify.Core.Persistence"
+        }
+      ]
+    }    
+  ]
+}

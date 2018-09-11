@@ -1,0 +1,152 @@
+﻿{
+  "defaultAssembly": "DH.Simplify.Core.Application",
+  "components": [
+    {
+      "type": "DH.Simplify.Core.Application.Newsfeed.NewsfeedApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.Newsfeed.INewsfeedApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.UniversalMessages.UniversalMessageApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.UniversalMessages.IUniversalMessageApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.HelpDeskTickets.HelpDeskTicketApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.HelpDeskTickets.IHelpDeskTicketApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.HelpDeskIncidents.IncidentApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.HelpDeskIncidents.IIncidentApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Infrastructure.HelpDeskProvider.HelpDeskIncidents, DH.Simplify.Infrastructure.HelpDeskProvider",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Integration.HelpDeskProvider.Interfaces.IHelpDeskIncidents, DH.Simplify.Core.Integration"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.Specialties.SpecialtyApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.Specialties.ISpecialtyApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Enterprise.BlobStorage.BlobStorageHelperProxy, DH.Simplify.Core.Enterprise",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Enterprise.BlobStorage.IBlobStorageHelperProxy, DH.Simplify.Core.Enterprise"
+        }
+      ]
+    },
+    {
+      "type": "DH.Simplify.Core.Application.UserProfile.UserProfileApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.UserProfile.IUserProfileApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Infrastructure.AuthProvider.ProviderAuthentication, DH.Simplify.Infrastructure.AuthProvider",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Integration.AuthProvider.Interfaces.IProviderAuthentication, DH.Simplify.Core.Integration"
+        }
+      ]
+    },
+    {
+      "type": "DH.Simplify.Core.Application.Authentication.AuthenticationApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.Authentication.IAuthenticationApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.TermsOfServices.TermsOfServiceApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.TermsOfServices.ITermsOfServiceApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.ForcedUpgrade.ForcedUpgradeApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.ForcedUpgrade.IForcedUpgradeApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Core.Application.Groups.GroupApplication, DH.Simplify.Core.Application",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Application.Groups.IGroupApplication"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DH.Simplify.Infrastructure.Persistence.Repositories.GroupRepository, DH.Simplify.Infrastructure.Persistence",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Persistence.RepositoryInterfaces.IGroupRepository, DH.Simplify.Core.Persistence"
+        }
+      ]
+    },
+    {
+      "type": "DH.Simplify.Infrastructure.Persistence.Repositories.HelpDeskTicketRepository, DH.Simplify.Infrastructure.Persistence",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Persistence.RepositoryInterfaces.IHelpDeskTicketRepository, DH.Simplify.Core.Persistence"
+        }
+      ]
+    },
+    {
+      "type": "DH.Simplify.Infrastructure.Persistence.Repositories.ProviderRepository, DH.Simplify.Infrastructure.Persistence",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Persistence.RepositoryInterfaces.IProviderRepository, DH.Simplify.Core.Persistence"
+        }
+      ]
+    },
+    {
+      "type": "DH.Simplify.Infrastructure.Persistence.Repositories.UniversalMessageRepository, DH.Simplify.Infrastructure.Persistence",
+      "services": [
+        {
+          "type": "DH.Simplify.Core.Persistence.RepositoryInterfaces.IUniversalMessageRepository, DH.Simplify.Core.Persistence"
+        }
+      ]
+    }
+  ]
+}

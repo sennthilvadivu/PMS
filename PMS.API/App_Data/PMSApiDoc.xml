@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PMS.API</name>
+    </assembly>
+    <members>
+        <member name="M:PMS.API.SwaggerConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Register Method
+            </summary>
+        </member>
+        <member name="M:PMS.API.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            Registers global filters
+            </summary>
+            <param name="filters">GlobalFilterCollection</param>
+        </member>
+        <member name="M:PMS.API.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            creates routing configuration
+            </summary>
+            <param name="routes"></param>
+        </member>
+    </members>
+</doc>
