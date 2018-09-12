@@ -1,0 +1,9 @@
+D:\senthil\PMS\PMSDB\bin\Debug\PMSDB.dacpac
+D:\senthil\PMS\PMSDB\bin\Debug\PMSDB.dll
+D:\senthil\PMS\PMSDB\bin\Debug\PMSDB.pdb
+D:\senthil\PMS\PMSDB\obj\Debug\Model.xml
+D:\senthil\PMS\PMSDB\obj\Debug\refactor.xml
+D:\senthil\PMS\PMSDB\obj\Debug\postdeploy.sql
+D:\senthil\PMS\PMSDB\obj\Debug\predeploy.sql
+D:\senthil\PMS\PMSDB\obj\Debug\PMSDB.dll
+D:\senthil\PMS\PMSDB\obj\Debug\PMSDB.pdb
